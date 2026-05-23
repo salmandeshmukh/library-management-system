@@ -18,6 +18,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://library-management-system-chi-drab.vercel.app",
     ],
     credentials: true,
   })
